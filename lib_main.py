@@ -19,8 +19,8 @@ def delete(ISBN):
     lib_db.delete(ISBN)
 
 
-def list_book(self):
-    pass
+def list_book():
+    return lib_db.all()
 
 
 def search(ISBN):
