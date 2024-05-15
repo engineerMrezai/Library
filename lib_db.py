@@ -2,16 +2,32 @@ import sqlite3
 
 
 def create():
-    pass
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS books_table(ISBN CHAR(8), Title TEXT, Author TEXT, Price FLOAT, Pages INTEGER)")
 
 
-def insert():
-    pass
+def insert(ISBN, Title, Author, Price, Pages):
+    create()
+    try:
+        cursor.execute("INSERT INTO books_table VALUES(?,?,?,?,?)", [ISBN, Title, Author, Price, Pages])
+        print("book has been saved successfully")
+    except(sqlite3.IntegrityError):
+        print("car_id must be a unique number")
+    database.commit()
 
 
-def find():
-    pass
+def find(ISBN):
+    book = cursor.execute("SELECT * FROM books_table where ISBN= ?", [ISBN]).fetchone()
+    if book == None:
+        return "car not found"
+    return book
 
 
-def delete():
-    pass
+def delete(ISBN):
+    cursor.execute("DELETE FROM books_table WHERE ISBN = ?", [ISBN])
+    database.commit()
+
+
+database = sqlite3.connect("lib_database.db")
+
+cursor = database.cursor()
