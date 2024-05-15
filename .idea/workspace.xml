@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="add basic function to lib_db">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_db.py" afterDir="false" />
-    </list>
+    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="update basic function lib_main and remove def update()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +55,7 @@
       <updated>1715535900046</updated>
       <workItem from="1715535906666" duration="244000" />
       <workItem from="1715536181422" duration="1368000" />
-      <workItem from="1715784627797" duration="1007000" />
+      <workItem from="1715784627797" duration="3443000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -92,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715784723564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update basic function lib_db">
+      <option name="closed" value="true" />
+      <created>1715789471942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789471942</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update basic function lib_main and remove def update()">
+      <option name="closed" value="true" />
+      <created>1715789520371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789520371</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +118,8 @@
     <MESSAGE value="start project" />
     <MESSAGE value="add basic function to lib_main" />
     <MESSAGE value="add basic function to lib_db" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic function to lib_db" />
+    <MESSAGE value="update basic function lib_db" />
+    <MESSAGE value="update basic function lib_main and remove def update()" />
+    <option name="LAST_COMMIT_MESSAGE" value="update basic function lib_main and remove def update()" />
   </component>
 </project>

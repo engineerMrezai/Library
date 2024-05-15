@@ -28,6 +28,11 @@ def delete(ISBN):
     database.commit()
 
 
+def all():
+    books = cursor.execute("SELECT * FROM books_table")
+    return books
+
+
 database = sqlite3.connect("lib_database.db")
 
 cursor = database.cursor()
