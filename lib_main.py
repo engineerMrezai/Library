@@ -23,5 +23,8 @@ class Book:
     def search(ISBN):
         return lib_db.find(ISBN)
 
+    @staticmethod
+    def all():
+        return lib_db.all()
 
-Book.add(123456789, "HOW", "Mahdi Rezai", 10000, 200)
+
