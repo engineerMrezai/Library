@@ -19,4 +19,9 @@ def bookslist():
     return flask.render_template('bookslist.html', books=lib_db.all())
 
 
+@app.route('/deletebook')
+def deletebook():
+    return flask.render_template('deletebook.html')
+
+
 app.run()
