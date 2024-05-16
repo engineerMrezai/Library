@@ -11,17 +11,17 @@ class Book:
         lib_db.insert(self.ISBN, self.Title, self.Author, self.Price, self.Pages)
 
 
-def add(ISBN, Title, Author, Price, Pages):
-    book = Book(ISBN, Title, Author, Price, Pages)
+    @staticmethod
+    def delete(ISBN):
+        lib_db.delete(ISBN)
+
+    @staticmethod
+    def list_book():
+        return lib_db.all()
+
+    @staticmethod
+    def search(ISBN):
+        return lib_db.find(ISBN)
 
 
-def delete(ISBN):
-    lib_db.delete(ISBN)
-
-
-def list_book():
-    return lib_db.all()
-
-
-def search(ISBN):
-    return lib_db.find(ISBN)
+Book.add(123456789, "HOW", "Mahdi Rezai", 10000, 200)
