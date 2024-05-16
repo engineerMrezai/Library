@@ -10,7 +10,6 @@ def insert(ISBN, Title, Author, Price, Pages):
     create()
     try:
         cursor.execute("INSERT INTO books_table VALUES(?,?,?,?,?)", [ISBN, Title, Author, Price, Pages])
-        print("book has been saved successfully")
     except(sqlite3.IntegrityError):
         raise ValueError("ISBN must be a unique number")
     database.commit()
