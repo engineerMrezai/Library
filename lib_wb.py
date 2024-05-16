@@ -1,4 +1,5 @@
 import flask
+import lib_db
 
 app = flask.Flask(__name__)
 
@@ -10,7 +11,12 @@ def index():
 
 @app.route('/about')
 def about():
-    return flask.render_template('about.html', greeting="Welcome !")
+    return flask.render_template('about.html')
 
 
-app.run(debug=True)
+@app.route('/bookslist')
+def bookslist():
+    return flask.render_template('bookslist.html', books=lib_db.all())
+
+
+app.run()
