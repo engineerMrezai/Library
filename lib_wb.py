@@ -19,8 +19,12 @@ def bookslist():
     return flask.render_template('bookslist.html', books=lib_db.all())
 
 
-@app.route('/deletebook')
+@app.route('/deletebook', methods=["GET", "POST"])
 def deletebook():
+    if flask.request.method == "POST":
+        temp = flask.request.form
+        lib_db.delete(temp['ISBN'])
+        return flask.redirect("/bookslist")
     return flask.render_template('deletebook.html')
 
 
