@@ -4,14 +4,14 @@
 {% block content %}
 <style>
   table, th , td  {
-    border:1px solid rgb(0, 3, 180);
+    border:3px solid #593825;
     margin: 50px;
-   text-align: center;
+    text-align: center;
   }
   </style>
 
-<table style="width:60%">
-  
+<table style="width:90%">
+
     <tr>
       <th>ISBN</th>
       <th>Title</th>
@@ -28,6 +28,7 @@
       <td>{{book[4]}}</td>
     </tr>
     {% endfor %}
-  </table> 
-  <a href="/deletebook" class="btn-primary" style="margin: 50px;">Delete Book</a>
+  </table>
+  <a href="/newbook" class="btn-primary" style="margin: 50px;">Add new Book</a>
+  <a href="/deletebook" class="btn-primary" style="margin: -50px;">Delete Book</a>
 {% endblock %}

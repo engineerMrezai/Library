@@ -10,7 +10,6 @@ class Book:
         self.Pages = Pages
         lib_db.insert(self.ISBN, self.Title, self.Author, self.Price, self.Pages)
 
-
     @staticmethod
     def delete(ISBN):
         lib_db.delete(ISBN)

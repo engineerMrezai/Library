@@ -32,7 +32,10 @@ def deletebook():
 def addbook():
     if flask.request.method == 'POST':
         temp = dict(flask.request.form)
-        Book(temp['ISBN'], temp['title'], temp['author'], temp['price'], temp['page'])
+        try:
+            Book(temp['ISBN'], temp['title'], temp['author'], temp['price'], temp['page'])
+        except ValueError as e:
+            return flask.render_template("error.html", text=e)
         return flask.redirect('/bookslist')
     return flask.render_template('newbook.html')
 
