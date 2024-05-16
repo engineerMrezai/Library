@@ -3,7 +3,7 @@ import sqlite3
 
 def create():
     cursor.execute(
-        "CREATE TABLE IF NOT EXISTS books_table(ISBN CHAR(8), Title TEXT, Author TEXT, Price FLOAT, Pages INTEGER)")
+        "CREATE TABLE IF NOT EXISTS books_table(ISBN INTEGER PRIMARY KEY, Title TEXT, Author TEXT, Price FLOAT, Pages INTEGER)")
 
 
 def insert(ISBN, Title, Author, Price, Pages):
@@ -12,7 +12,7 @@ def insert(ISBN, Title, Author, Price, Pages):
         cursor.execute("INSERT INTO books_table VALUES(?,?,?,?,?)", [ISBN, Title, Author, Price, Pages])
         print("book has been saved successfully")
     except(sqlite3.IntegrityError):
-        print("car_id must be a unique number")
+        raise ValueError("ISBN must be a unique number")
     database.commit()
 
 
@@ -33,6 +33,6 @@ def all():
     return books
 
 
-database = sqlite3.connect("lib_database.db")
+database = sqlite3.connect("../library/lib_database.db")
 
 cursor = database.cursor()
