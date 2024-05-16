@@ -33,6 +33,6 @@ def all():
     return books
 
 
-database = sqlite3.connect("../library/lib_database.db")
+database = sqlite3.connect("../library/lib_database.db", check_same_thread=False)
 
 cursor = database.cursor()
