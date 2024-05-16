@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="update basic function lib_main and remove def update()" />
+    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="update def insert except">
+      <change afterPath="$PROJECT_DIR$/lib_database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,13 +27,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2gNR9lyX5Ia0sTyzyPLvyO1rSNZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -55,7 +61,9 @@
       <updated>1715535900046</updated>
       <workItem from="1715535906666" duration="244000" />
       <workItem from="1715536181422" duration="1368000" />
-      <workItem from="1715784627797" duration="3443000" />
+      <workItem from="1715784627797" duration="4943000" />
+      <workItem from="1715792688019" duration="610000" />
+      <workItem from="1715863909070" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -105,13 +113,46 @@
       <option name="project" value="LOCAL" />
       <updated>1715789520371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add def all() to lib_db">
+      <option name="closed" value="true" />
+      <created>1715789759981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789759981</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update def list_book">
+      <option name="closed" value="true" />
+      <created>1715789814785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789814785</updated>
+    </task>
+    <task id="LOCAL-00009" summary="remove def add from lib_main">
+      <option name="closed" value="true" />
+      <created>1715864750787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715864750787</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update def insert except">
+      <option name="closed" value="true" />
+      <created>1715864777409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715864777409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -120,6 +161,14 @@
     <MESSAGE value="add basic function to lib_db" />
     <MESSAGE value="update basic function lib_db" />
     <MESSAGE value="update basic function lib_main and remove def update()" />
-    <option name="LAST_COMMIT_MESSAGE" value="update basic function lib_main and remove def update()" />
+    <MESSAGE value="add def all() to lib_db" />
+    <MESSAGE value="update def list_book" />
+    <MESSAGE value="remove def add from lib_main" />
+    <MESSAGE value="update def insert except" />
+    <option name="LAST_COMMIT_MESSAGE" value="update def insert except" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/library$lib_db.coverage" NAME="lib_db Coverage Results" MODIFIED="1715793289927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$lib_main.coverage" NAME="lib_main Coverage Results" MODIFIED="1715793214366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
