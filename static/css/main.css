@@ -8,14 +8,14 @@ html, body, h1 {
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #BF9278;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
 h2 {
-  
   font-weight: 300;
-  
+  text-shadow: 0 0 6px #000000;
   letter-spacing: -1.2px;
 }
 
@@ -27,6 +27,7 @@ a {
 .container {
   width: 1000px;
   margin: 0 auto;
+
 }
 
 .pull-left {
@@ -58,9 +59,9 @@ a {
 }
 
 .btn-primary {
-  background: #4285f4;
-  border: 1px solid #1266f1;
-  color: #ffffff;
+  background: #593825;
+  border: 3px solid #F2CAB3;
+  color: #F2CAB3;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -88,25 +89,29 @@ a {
 
 
 
-/* 
+/*
  * Header
  */
 
 header {
-  background-color: #fff;
-  padding: 25px 0;
+  background-color: #593825;
+  padding: 25px;
+  text-align: center;
+  margin: 0;
 }
 
+
 .title {
-  float: left;
+  display: block;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  letter-spacing: 2.5px;
+  font-size: 25px;
+  /*letter-spacing: 2.5px;*/
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .title a, .title a:visited {
-  color: #3a3a3a;
+  color: #000000;
 }
 
 .main-nav {
@@ -133,7 +138,7 @@ header {
 
 
 /*
- * Hero section 
+ * Hero section
  */
 
 .hero-section .section-content {
@@ -143,6 +148,7 @@ header {
 
 .hero-section .section-content h2 {
   font-size: 40px;
+  border-color: #BF9278 ;
 }
 
 .hero-section .section-content .btn-primary {
