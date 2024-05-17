@@ -26,4 +26,8 @@ class Book:
     def all():
         return lib_db.all()
 
+    @staticmethod
+    def update(ISBN, Title, Author, Price, Pages):
+        lib_db.update(ISBN, Title, Author, Price, Pages)
+
 

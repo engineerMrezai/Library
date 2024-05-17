@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="new book work fully :))">
+    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="The latest changes have been applied to the initial version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_database.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib_database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_wb.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_wb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bookslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bookslist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/newbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newbook.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -75,7 +74,8 @@
       <workItem from="1715536181422" duration="1368000" />
       <workItem from="1715784627797" duration="4943000" />
       <workItem from="1715792688019" duration="610000" />
-      <workItem from="1715863909070" duration="16090000" />
+      <workItem from="1715863909070" duration="18878000" />
+      <workItem from="1715919938036" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -245,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715879173590</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="The latest changes have been applied to the initial version">
+      <option name="closed" value="true" />
+      <created>1715883530159</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715883530159</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,11 +284,12 @@
     <MESSAGE value="add /deletebook" />
     <MESSAGE value="update /deletebook" />
     <MESSAGE value="new book work fully :))" />
-    <option name="LAST_COMMIT_MESSAGE" value="new book work fully :))" />
+    <MESSAGE value="The latest changes have been applied to the initial version" />
+    <option name="LAST_COMMIT_MESSAGE" value="The latest changes have been applied to the initial version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/library$lib_wb.coverage" NAME="lib_wb Coverage Results" MODIFIED="1715883278206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/library$lib_db.coverage" NAME="lib_db Coverage Results" MODIFIED="1715879255497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$lib_wb.coverage" NAME="lib_wb Coverage Results" MODIFIED="1715885191909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$lib_db.coverage" NAME="lib_db Coverage Results" MODIFIED="1715920866547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/library$lib_main.coverage" NAME="lib_main Coverage Results" MODIFIED="1715793214366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

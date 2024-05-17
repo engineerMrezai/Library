@@ -18,7 +18,7 @@ def insert(ISBN, Title, Author, Price, Pages):
 def find(ISBN):
     book = cursor.execute("SELECT * FROM books_table where ISBN= ?", [ISBN]).fetchone()
     if book == None:
-        return "car not found"
+        raise ValueError("Book not found")
     return book
 
 
@@ -32,6 +32,12 @@ def all():
     return books
 
 
+def update(ISBN, Title, Author, Price, Pages):
+    cursor.execute("UPDATE books_table SET title=?,author=?,price=?,pages=? WHERE ISBN=?", [Title, Author, Price, Pages, ISBN])
+    database.commit()
+
 database = sqlite3.connect("../library/lib_database.db", check_same_thread=False)
 
 cursor = database.cursor()
+
+update(11111111, "Harry Potter and the Philosopher's Stone", 'J. K. Rowling', 3000.0, 223)
