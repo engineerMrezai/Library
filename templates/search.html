@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+
+  <main class="hero-section">
+    <form method="POST">
+      <div class="container">
+        <div class="section-content">
+            <div class="form-group">
+              <label>ISBN :</label>
+              <input type=text name=ISBN placeholder="ISBN 8 char" maxlength="8" minlength="8"/>
+            </div>
+          <input type="submit" value="search" class="btn-primary"/>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </form>
+  </main>
+
+{% endblock %}

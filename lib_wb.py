@@ -40,4 +40,17 @@ def addbook():
     return flask.render_template('newbook.html')
 
 
+@app.route('/search',methods = ["GET", "POST"])
+def search():
+    if flask.request.method == 'POST':
+        temp = flask.request.form
+        try:
+            print(type(Book.search(temp['ISBN'])))
+        except ValueError as e:
+            return flask.render_template("error.html", text=e)
+        # باید به صفحه آپدیت ارسال شود
+        return flask.render_template('error.html')
+    return flask.render_template('search.html')
+
+
 app.run()

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="The latest changes have been applied to the initial version">
+    <list default="true" id="48326ee1-98f3-4040-bb02-f17968257dd1" name="Changes" comment="add def update">
+      <change afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_database.db" beforeDir="false" afterPath="$PROJECT_DIR$/lib_database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bookslist.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bookslist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_wb.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_wb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +42,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -75,7 +75,8 @@
       <workItem from="1715784627797" duration="4943000" />
       <workItem from="1715792688019" duration="610000" />
       <workItem from="1715863909070" duration="18878000" />
-      <workItem from="1715919938036" duration="1449000" />
+      <workItem from="1715919938036" duration="4115000" />
+      <workItem from="1716055306362" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -253,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715883530159</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add def update">
+      <option name="closed" value="true" />
+      <created>1715922102524</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715922102524</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,10 +294,11 @@
     <MESSAGE value="update /deletebook" />
     <MESSAGE value="new book work fully :))" />
     <MESSAGE value="The latest changes have been applied to the initial version" />
-    <option name="LAST_COMMIT_MESSAGE" value="The latest changes have been applied to the initial version" />
+    <MESSAGE value="add def update" />
+    <option name="LAST_COMMIT_MESSAGE" value="add def update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/library$lib_wb.coverage" NAME="lib_wb Coverage Results" MODIFIED="1715885191909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/library$lib_wb.coverage" NAME="lib_wb Coverage Results" MODIFIED="1716055322706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/library$lib_db.coverage" NAME="lib_db Coverage Results" MODIFIED="1715920866547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/library$lib_main.coverage" NAME="lib_main Coverage Results" MODIFIED="1715793214366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
